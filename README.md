@@ -1,4 +1,4 @@
-#**Behavioral Cloning** 
+# Behavioral Cloning
 
 ---
 
@@ -16,7 +16,7 @@ the car steering angles and the road images in front of a car.
 * Summarize the results with a written report
 
 ---
-###Files Submitted 
+### Files Submitted 
 
 My project includes the following files:
 * model.py containing the script to create and train the model
@@ -28,7 +28,7 @@ My project includes the following files:
 model.py uses python generator with batch size (32 to 256 depending on the computing sources i used). First, I used AWS GPU instance. Later, I used google cloud instance with GPU.
 Occasionaly, I used my laptop.
 
-###Model Architecture and Training Strategy
+### Model Architecture and Training Strategy
 
 The final design is based on the architecture design which is used by NVIDIA for the end-to-end self driving test. 
 (https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf)
